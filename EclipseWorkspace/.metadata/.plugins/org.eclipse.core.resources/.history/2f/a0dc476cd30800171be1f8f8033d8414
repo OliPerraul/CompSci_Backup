@@ -1,0 +1,13 @@
+
+public class DPriorityNode<T> 
+{
+    
+    private T element;
+    
+    private DPriorityNode<T> next;
+    
+    
+    
+    
+
+}

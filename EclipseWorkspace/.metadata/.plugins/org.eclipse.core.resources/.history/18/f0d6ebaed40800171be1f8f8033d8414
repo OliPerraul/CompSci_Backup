@@ -1,0 +1,59 @@
+
+public class DPriorityNode<T> 
+{
+    /** Attribute:
+    * Object contained in the node
+    **/
+    private T element;
+    
+    /** Attribute:
+    * Pointer to the next node
+    **/
+    private DPriorityNode<T> next;
+    
+    /** Attribute:
+     * Pointer to the prev node
+     **/
+    private DPriorityNode<T> prev;
+    
+    
+    /** Attribute:
+    * Relative priority in the queue
+    **/
+    private double priority;
+    
+    
+     /**
+     * 1st overload of the constructor (Creates an empty node, with null data and zero priority.)
+     **/
+     public DPriorityNode ()
+     {
+ 	
+ 	
+     }
+    
+    /**
+    * 2nd overload of the constructor
+    * @param T data (object contained)
+    * @param double priority (object contained)
+    **/
+    public DPriorityNode (T data, double prio)
+    {
+	
+	
+    }
+    
+    //Accessors and mutators
+    //getPriority, getElement, getNext, getPrev, setElement, setNext, setPrev, setPriority.
+    public double getPriority(){return priority;}
+    public setPriority(double pr){priority= pr;}
+    public double getPriority(){return priority;}
+    
+    
+    
+    
+    
+    
+    
+
+}

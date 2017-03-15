@@ -1,0 +1,37 @@
+
+public class DPriorityNode<T> 
+{
+    /** Attribute:
+    * Object contained in the node
+    **/
+    private T element;
+    
+    /** Attribute:
+    * Pointer to the next node
+    **/
+    private DPriorityNode<T> next;
+    
+    /** Attribute:
+     * Pointer to the prev node
+     **/
+    private DPriorityNode<T> prev;
+    
+    
+    /** Attribute:
+    * Relative priority in the queue
+    **/
+    private double priority;
+    
+    
+    /**
+    * 2nd overload of the constructor
+    * @param T data (object contained)
+    * @param double priority (object contained)
+    **/
+    public DPriorityNode (T data, double prio)
+    {
+	
+	
+    }
+
+}
