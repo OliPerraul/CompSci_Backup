@@ -1,5 +1,0 @@
-import java.lang.Object.BankAccount;
-
-public class SavingsAccount extends BankAccount {
-
-}
